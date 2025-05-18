@@ -63,8 +63,9 @@ function displayGuess(guess) {
   remaining.innerHTML = `${11 - numGuess} `;
 }
 
+const a="try once again";
 function displayMessage(message) {
-  lowOrHi.innerHTML = `<h2>${message} ${randomNumber}</h2>`;
+  lowOrHi.innerHTML = `<h2>${message} ${a}</h2>`;
 }
 
 function endGame() {
